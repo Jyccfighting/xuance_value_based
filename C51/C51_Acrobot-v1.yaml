@@ -39,6 +39,6 @@ obsnorm_range: 5  # The observation normalization range.
 rewnorm_range: 5  # The reward normalization range.
 
 eval_interval: 50000  # Frequency to evaluate the model.
-test_episode: 1  # Number of episodes to test.
+test_episode: 10  # Number of episodes to test.
 log_dir: "logs/c51/"  # The directory to store logger file.
 model_dir: "models/c51/"  # The directory to store model file.

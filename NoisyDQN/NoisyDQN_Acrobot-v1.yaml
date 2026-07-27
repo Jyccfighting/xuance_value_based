@@ -15,7 +15,7 @@ activation: 'relu'
 seed: 1
 parallels: 10
 buffer_size: 200000
-batch_size: 128
+batch_size: 256
 learning_rate: 0.001
 gamma: 0.99
 
@@ -24,7 +24,7 @@ end_noise: 0.0
 decay_step_noise: 500000
 sync_frequency: 100
 training_frequency: 2
-running_steps: 500000
+running_steps: 300000
 start_training: 1000
 
 use_obsnorm: False  # Whether to use observation normalization trick.
@@ -36,6 +36,6 @@ use_grad_clip: False  # gradient normalization
 grad_clip_norm: 0.5
 use_actions_mask: False
 eval_interval: 50000
-test_episode: 1
+test_episode: 10
 log_dir: "logs/noisy_dqn/"
 model_dir: "models/noisy_dqn/"
