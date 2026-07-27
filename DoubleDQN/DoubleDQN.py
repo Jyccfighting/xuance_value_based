@@ -1,7 +1,7 @@
 import xuance
 runner = xuance.get_runner('ddqn',
                        'classic_control',  # 可选：classic_control、box2d、atari。
-                       'CartPole-v1',  # 可选：CartPole-v1、Acrobot-v1、MountainCar-v0 等。
-                       "./DoubleDQN/DoubleDQN_CartPole-v1.yaml",  # 请确保 my_config.yaml 的路径正确。
+                       'Acrobot-v1-v1',  # 可选：CartPole-v1、Acrobot-v1、MountainCar-v0 等。
+                       "./DoubleDQN/DoubleDQN_Acrobot-v1.yaml",  # 请确保 my_config.yaml 的路径正确。
                        )
 runner.run(mode='benchmark') 
