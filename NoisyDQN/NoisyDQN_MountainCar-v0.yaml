@@ -1,3 +1,8 @@
+dl_toolbox: "torch"
+project_name: "NoisyDQN_MountainCar-v0"
+logger: "wandb"
+wandb_user_name: "2797824480"
+
 agent: "NoisyDQN"
 env_name: "Classic Control"
 env_id: "MountainCar-v0"
@@ -15,7 +20,7 @@ activation: 'relu'
 seed: 1
 parallels: 10
 buffer_size: 200000
-batch_size: 128
+batch_size: 256
 learning_rate: 0.001
 gamma: 0.99
 
@@ -23,8 +28,8 @@ start_noise: 0.05
 end_noise: 0.0
 decay_step_noise: 500000
 sync_frequency: 100
-training_frequency: 2
-running_steps: 500000
+training_frequency: 1
+running_steps: 1000000
 start_training: 1000
 
 use_grad_clip: False  # gradient normalization
@@ -36,6 +41,6 @@ obsnorm_range: 5
 rewnorm_range: 5
 
 eval_interval: 50000
-test_episode: 1
+test_episode: 10
 log_dir: "logs/noisy_dqn/"
 model_dir: "models/noisy_dqn/"
