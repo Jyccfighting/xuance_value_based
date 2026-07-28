@@ -1,3 +1,8 @@
+dl_toolbox: "torch"
+project_name: "C51_Acrobot-v1"
+logger: "wandb"
+wandb_user_name: "2797824480"
+
 agent: "C51DQN"  # Name of agent
 env_name: "Classic Control"  # Environment name.
 env_id: "Acrobot-v1"  # Environment ID.
