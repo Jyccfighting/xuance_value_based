@@ -1,0 +1,170 @@
+_wandb:
+    value:
+        cli_version: 0.28.1
+        e:
+            vpwnbd5dfox1i1occ6055bbubw160yb7:
+                codePath: NoisyDQN\NoisyDQN.py
+                codePathLocal: NoisyDQN\NoisyDQN.py
+                cpu_count: 14
+                cpu_count_logical: 20
+                cudaVersion: "13.2"
+                disk:
+                    /:
+                        total: "2000381014016"
+                        used: "1433452441600"
+                email: 2797824480@qq.com
+                executable: D:\Program Files\anaconda3\envs\xuance_torch\python.exe
+                git:
+                    commit: 86c4225bd733cac16a403cb6d533afaa721a4d39
+                    remote: https://github.com/Jyccfighting/xuance_value_based.git
+                gpu: NVIDIA GeForce RTX 3060 Laptop GPU
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Ampere
+                      cudaCores: 3840
+                      memoryTotal: "6442450944"
+                      name: NVIDIA GeForce RTX 3060 Laptop GPU
+                      uuid: GPU-279c9533-d31e-f0a7-580f-e9dabad4cb0d
+                host: Jycc
+                memory:
+                    total: "16851132416"
+                os: Windows-10-10.0.26200-SP0
+                program: d:\document\coding\value\NoisyDQN\NoisyDQN.py
+                python: CPython 3.10.20
+                root: D:\document\coding\value\logs\noisy_dqn\Acrobot-v1
+                startedAt: "2026-08-05T12:18:51.525980Z"
+                writerId: vpwnbd5dfox1i1occ6055bbubw160yb7
+        m: []
+        python_version: 3.10.20
+        t:
+            "1":
+                - 1
+                - 41
+            "2":
+                - 1
+                - 41
+            "3":
+                - 2
+                - 13
+                - 16
+                - 61
+            "4": 3.10.20
+            "5": 0.28.1
+            "8":
+                - 3
+            "10":
+                - 20
+            "12": 0.28.1
+            "13": windows-amd64
+action_space:
+    value: Discrete(3)
+activation:
+    value: relu
+activation_action:
+    value: tanh
+actor_hidden_size:
+    value:
+        - 256
+agent:
+    value: NoisyDQN
+agent_name:
+    value: noisydqn
+batch_size:
+    value: 256
+buffer_size:
+    value: 200000
+critic_hidden_size:
+    value:
+        - 256
+decay_step_noise:
+    value: 200000
+device:
+    value: cpu
+distributed_training:
+    value: false
+dl_toolbox:
+    value: torch
+end_noise:
+    value: 0.01
+env_id:
+    value: Acrobot-v1
+env_name:
+    value: Classic Control
+env_seed:
+    value: 10
+episode_length:
+    value: 500
+eval_interval:
+    value: 50000
+fps:
+    value: 50
+gamma:
+    value: 0.99
+grad_clip_norm:
+    value: 0.5
+learner:
+    value: DQN_Learner
+learning_rate:
+    value: 0.0005
+log_dir:
+    value: logs/noisy_dqn/Acrobot-v1
+logger:
+    value: wandb
+master_port:
+    value: "12355"
+model_dir:
+    value: models/noisy_dqn/Acrobot-v1
+observation_space:
+    value: Box([ -1.        -1.        -1.        -1.       -12.566371 -28.274334], [ 1.        1.        1.        1.       12.566371 28.274334], (6,), float32)
+obsnorm_range:
+    value: 5
+parallels:
+    value: 10
+policy:
+    value: Noisy_Q_network
+project_name:
+    value: NoisyDQN_Acrobot-v1
+q_hidden_size:
+    value:
+        - 128
+render:
+    value: true
+render_mode:
+    value: rgb_array
+representation:
+    value: Basic_MLP
+representation_hidden_size:
+    value:
+        - 128
+result_dir:
+    value: results/noisydqn\Acrobot-v1
+rewnorm_range:
+    value: 5
+runner:
+    value: DRL
+running_steps:
+    value: 500000
+seed:
+    value: 1
+start_noise:
+    value: 0.5
+start_training:
+    value: 1000
+sync_frequency:
+    value: 100
+test_episode:
+    value: 10
+training_frequency:
+    value: 1
+use_actions_mask:
+    value: false
+use_grad_clip:
+    value: true
+use_obsnorm:
+    value: false
+use_rewnorm:
+    value: false
+vectorize:
+    value: DummyVecEnv
+wandb_user_name:
+    value: "2797824480"

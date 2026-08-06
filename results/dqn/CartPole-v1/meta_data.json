@@ -17,15 +17,15 @@
     "Python": "3.10.20",
     "XuanCe": "v1.4.4",
     "PyTorch": "2.13.0+cpu",
-    "PID": 177504,
+    "PID": 216568,
     "Rank": 0,
     "device": "cpu",
     "cpu_arch": "Intel64 Family 6 Model 154 Stepping 3, GenuineIntel"
   },
   "timestamps": {
-    "start_time": "2026-07-27T21:31:52.238600+08:00",
-    "best_model_time": "2026-07-27T21:34:31.842553+08:00",
-    "end_time": "2026-07-27T21:38:52.539090+08:00",
-    "elapsed_seconds": 420.3
+    "start_time": "2026-08-06T10:05:54.433865+08:00",
+    "best_model_time": "2026-08-06T10:07:41.564104+08:00",
+    "end_time": "2026-08-06T10:12:35.285517+08:00",
+    "elapsed_seconds": 400.852
   }
 }

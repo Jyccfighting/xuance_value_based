@@ -21,23 +21,23 @@ seed: 1
 parallels: 10
 buffer_size: 200000
 batch_size: 256
-learning_rate: 0.001
+learning_rate: 0.0005  #0.001
 gamma: 0.99
 
-start_noise: 0.05
-end_noise: 0.0
-decay_step_noise: 500000
+start_noise: 0.5  #0.05
+end_noise: 0.01  #0.0
+decay_step_noise: 200000  #500000
 sync_frequency: 100
-training_frequency: 2
-running_steps: 300000
+training_frequency: 1  #2
+running_steps: 500000  #300000
 start_training: 1000
 
 use_obsnorm: False  # Whether to use observation normalization trick.
-use_rewnorm: False  # Whether to use reward normalization trick.
+use_rewnorm: True  #False  # Whether to use reward normalization trick.
 obsnorm_range: 5
 rewnorm_range: 5
 
-use_grad_clip: False  # gradient normalization
+use_grad_clip: True  #False  # gradient normalization
 grad_clip_norm: 0.5
 use_actions_mask: False
 eval_interval: 50000

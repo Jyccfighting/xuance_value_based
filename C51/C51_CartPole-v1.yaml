@@ -24,7 +24,7 @@ batch_size: 256  # The batch size for training.
 learning_rate: 0.001  # The learning rate.
 gamma: 0.99  # The discount factor.
 v_min: 0
-v_max: 200
+v_max: 500   #200
 atom_num: 51
 
 start_greedy: 0.5  # The start epsilon greedy.
