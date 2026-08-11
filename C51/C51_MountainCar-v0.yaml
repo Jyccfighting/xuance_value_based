@@ -19,10 +19,10 @@ q_hidden_size: [128,]  # hidden sizes for Q networks.
 activation: 'relu'  # The activation function for hidden layers.
 
 seed: 1  # The random seed.
-parallels: 10  # Number of environments that to be implemented in parallel.
-buffer_size: 200000  # The size of replay buffer
+parallels: 20  #10  # Number of environments that to be implemented in parallel.
+buffer_size: 300000  #200000  # The size of replay buffer
 batch_size: 256  # The batch size for training.
-learning_rate: 0.001  # The learning rate.
+learning_rate: 0.0005  #0.001  # The learning rate.
 gamma: 0.99  # The discount factor.
 v_min: -200  #0
 v_max: 0     #200
@@ -30,17 +30,17 @@ atom_num: 51
 
 start_greedy: 1.0 # The start epsilon greedy.
 end_greedy: 0.01  # The end epsilon greedy.
-decay_step_greedy: 100000  # Number of steps for the decay of epsilon greedy.
+decay_step_greedy: 300000  #100000  # Number of steps for the decay of epsilon greedy.
 sync_frequency: 100  # The frequency to update target networks.
 training_frequency: 1  # The frequency to update the RL model.
-running_steps: 1000000  # The total running steps.
+running_steps: 2000000  #1000000  # The total running steps.
 start_training: 1000  # The running steps before training.
 
-use_grad_clip: False  # gradient normalization
+use_grad_clip: True  #False  # gradient normalization
 grad_clip_norm: 0.5  # The norm value for gradient clip.
 use_actions_mask: False  # Whether to use actions mask when the environment provides available actions values.
-use_obsnorm: False  # Whether to use observation normalization trick.
-use_rewnorm: True   #False  # Whether to use reward normalization trick.
+use_obsnorm: True  #False  # Whether to use observation normalization trick.
+use_rewnorm: False  #True   #False  # Whether to use reward normalization trick.
 obsnorm_range: 5  # The observation normalization range.
 rewnorm_range: 5  # The reward normalization range.
 

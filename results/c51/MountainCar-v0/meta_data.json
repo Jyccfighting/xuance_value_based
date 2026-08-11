@@ -7,7 +7,7 @@
   "seed": 1,
   "xuance_version": "v1.4.4",
   "benchmark": {
-    "running_steps": 1000000,
+    "running_steps": 2000000,
     "eval_interval": 50000,
     "test_episodes": 10
   },
@@ -17,15 +17,15 @@
     "Python": "3.10.20",
     "XuanCe": "v1.4.4",
     "PyTorch": "2.13.0+cpu",
-    "PID": 206448,
+    "PID": 211040,
     "Rank": 0,
     "device": "cpu",
     "cpu_arch": "Intel64 Family 6 Model 154 Stepping 3, GenuineIntel"
   },
   "timestamps": {
-    "start_time": "2026-08-05T20:02:22.181642+08:00",
-    "best_model_time": "2026-08-05T20:02:22.181642+08:00",
-    "end_time": "2026-08-05T20:18:20.676982+08:00",
-    "elapsed_seconds": 958.495
+    "start_time": "2026-08-07T10:36:00.772300+08:00",
+    "best_model_time": "2026-08-07T10:45:01.313787+08:00",
+    "end_time": "2026-08-07T10:51:57.475634+08:00",
+    "elapsed_seconds": 956.703
   }
 }
